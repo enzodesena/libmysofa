@@ -504,7 +504,7 @@ static int readOHDRHeaderMessageDataLayout(struct READER *reader,
         free(data->data);
         data->data = NULL;
       }
-      if (data_size > 0x10000000)
+      if (data_size > 0x100000000)
         return MYSOFA_INVALID_FORMAT;
       data->data_len = data_size;
       data->data = calloc(1, data_size);
