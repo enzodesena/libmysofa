@@ -4,6 +4,7 @@
 #.cproject
 bin/
 .settings/
+*.DS_Store
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
@@ -52,6 +53,9 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
+
+### MACOS
+*.DS_Store
 
 
 ### Linux template
